@@ -1,0 +1,1 @@
+a:3:{s:4:"eins";a:2:{i:0;s:8:"subdata1";i:1;s:8:"subdata2";}s:4:"zwei";s:5:"12345";s:4:"drei";s:6:"ABCDEF";}

@@ -1,0 +1,75 @@
+JUST SOME CODE...
+UPDATE THIS!
+------------------------------------------------------
+ROSK 2015
+------------------------------------------------------
+
+
+
+
+GARTEN HELFER
+------------------------------------------------------
+Features:
+
+Termine
+Wartung
+Tonne
+Spruch
+Pflanzen
+Tagesdaten
+Ajax <-> Arduino Serial
+
+
+
+
+Implementierte Funktionen:
+------------------------------------------------------
+v0.0.1
+- Datumsmethoden
+- Zeitmethoden
+- Gartenlexikon
+- DB Table Garten
+- Abfragen Garten
+- DB Table Sprueche
+- Abfrage Sprueche
+
+v0.0.2
+- Terministe
+- DB Table Termine
+- Abfragen Termine
+
+v0.0.3
+- Wartungen
+- DB Table Wartungen
+- Abfragen Wartung
+
+v0.0.4
+- Zeitanzeige
+- Kalender
+
+v0.0.5
+- Wetter Today
+- GUI Sidebar - Elemente an/abschaltbar
+
+v0.0.6
+- Mülltonnenkalender
+- DB Table Tonnen
+- Abfragen Tonnen
+
+v0.0.7
+- Gauge / Messfelder
+
+v0.0.8
+- Newsticker
+- Schalter
+- Darstellung der PFlanzen
+- editor.php
+
+v0.0.9
+- ajax.php
+- Spruchausgabe mit ajax callback
+
+v0.0.10
+- ajax_sendArduino.php
+- Daten an Arduino senden und empfangen
+- lang.de.php () deutsches Sprracharray

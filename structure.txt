@@ -1,0 +1,1485 @@
+.
+├── 404.html
+├── ajax_insertTagesdaten.php
+├── ajax_neuerSpruch.php
+├── ajax.php
+├── ajax_sendArduino.php
+├── audio
+│   ├── BlueDucks_FourFlossFiveSix.mp3
+│   ├── BlueDucks_FourFlossFiveSix.ogg
+│   └── BlueDucks_FourFlossFiveSix.wav
+├── cache
+├── css
+│   ├── audioplayer.css
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap-switch.css
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   ├── demo2.css
+│   ├── demo.css
+│   ├── main.css
+│   └── reset.css
+├── editor.php
+├── favicon.ico
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── ionicons-2.0.1
+│       ├── bower.json
+│       ├── builder
+│       │   ├── build_data.json
+│       │   ├── cheatsheet
+│       │   │   ├── icon-row.html
+│       │   │   └── template.html
+│       │   ├── generate.py
+│       │   ├── manifest.json
+│       │   └── scripts
+│       │       ├── eotlitetool.py
+│       │       ├── generate_font.py
+│       │       └── sfnt2woff
+│       ├── cheatsheet.html
+│       ├── component.json
+│       ├── composer.json
+│       ├── css
+│       │   ├── ionicons.css
+│       │   └── ionicons.min.css
+│       ├── fonts
+│       │   ├── ionicons.eot
+│       │   ├── ionicons.svg
+│       │   ├── ionicons.ttf
+│       │   └── ionicons.woff
+│       ├── less
+│       │   ├── _ionicons-font.less
+│       │   ├── _ionicons-icons.less
+│       │   ├── ionicons.less
+│       │   └── _ionicons-variables.less
+│       ├── LICENSE
+│       ├── png
+│       │   └── 512
+│       │       ├── alert-circled.png
+│       │       ├── alert.png
+│       │       ├── android-add-contact.png
+│       │       ├── android-add.png
+│       │       ├── android-alarm.png
+│       │       ├── android-archive.png
+│       │       ├── android-arrow-back.png
+│       │       ├── android-arrow-down-left.png
+│       │       ├── android-arrow-down-right.png
+│       │       ├── android-arrow-forward.png
+│       │       ├── android-arrow-up-left.png
+│       │       ├── android-arrow-up-right.png
+│       │       ├── android-battery.png
+│       │       ├── android-book.png
+│       │       ├── android-calendar.png
+│       │       ├── android-call.png
+│       │       ├── android-camera.png
+│       │       ├── android-chat.png
+│       │       ├── android-checkmark.png
+│       │       ├── android-clock.png
+│       │       ├── android-close.png
+│       │       ├── android-contact.png
+│       │       ├── android-contacts.png
+│       │       ├── android-data.png
+│       │       ├── android-developer.png
+│       │       ├── android-display.png
+│       │       ├── android-download.png
+│       │       ├── android-drawer.png
+│       │       ├── android-dropdown.png
+│       │       ├── android-earth.png
+│       │       ├── android-folder.png
+│       │       ├── android-forums.png
+│       │       ├── android-friends.png
+│       │       ├── android-hand.png
+│       │       ├── android-image.png
+│       │       ├── android-inbox.png
+│       │       ├── android-information.png
+│       │       ├── android-keypad.png
+│       │       ├── android-lightbulb.png
+│       │       ├── android-locate.png
+│       │       ├── android-location.png
+│       │       ├── android-mail.png
+│       │       ├── android-microphone.png
+│       │       ├── android-mixer.png
+│       │       ├── android-more.png
+│       │       ├── android-note.png
+│       │       ├── android-playstore.png
+│       │       ├── android-printer.png
+│       │       ├── android-promotion.png
+│       │       ├── android-reminder.png
+│       │       ├── android-remove.png
+│       │       ├── android-search.png
+│       │       ├── android-send.png
+│       │       ├── android-settings.png
+│       │       ├── android-share.png
+│       │       ├── android-social.png
+│       │       ├── android-social-user.png
+│       │       ├── android-sort.png
+│       │       ├── android-stair-drawer.png
+│       │       ├── android-star.png
+│       │       ├── android-stopwatch.png
+│       │       ├── android-storage.png
+│       │       ├── android-system-back.png
+│       │       ├── android-system-home.png
+│       │       ├── android-system-windows.png
+│       │       ├── android-timer.png
+│       │       ├── android-trash.png
+│       │       ├── android-user-menu.png
+│       │       ├── android-volume.png
+│       │       ├── android-wifi.png
+│       │       ├── aperture.png
+│       │       ├── archive.png
+│       │       ├── arrow-down-a.png
+│       │       ├── arrow-down-b.png
+│       │       ├── arrow-down-c.png
+│       │       ├── arrow-expand.png
+│       │       ├── arrow-graph-down-left.png
+│       │       ├── arrow-graph-down-right.png
+│       │       ├── arrow-graph-up-left.png
+│       │       ├── arrow-graph-up-right.png
+│       │       ├── arrow-left-a.png
+│       │       ├── arrow-left-b.png
+│       │       ├── arrow-left-c.png
+│       │       ├── arrow-move.png
+│       │       ├── arrow-resize.png
+│       │       ├── arrow-return-left.png
+│       │       ├── arrow-return-right.png
+│       │       ├── arrow-right-a.png
+│       │       ├── arrow-right-b.png
+│       │       ├── arrow-right-c.png
+│       │       ├── arrow-shrink.png
+│       │       ├── arrow-swap.png
+│       │       ├── arrow-up-a.png
+│       │       ├── arrow-up-b.png
+│       │       ├── arrow-up-c.png
+│       │       ├── asterisk.png
+│       │       ├── at.png
+│       │       ├── bag.png
+│       │       ├── battery-charging.png
+│       │       ├── battery-empty.png
+│       │       ├── battery-full.png
+│       │       ├── battery-half.png
+│       │       ├── battery-low.png
+│       │       ├── beaker.png
+│       │       ├── beer.png
+│       │       ├── bluetooth.png
+│       │       ├── bonfire.png
+│       │       ├── bookmark.png
+│       │       ├── briefcase.png
+│       │       ├── bug.png
+│       │       ├── calculator.png
+│       │       ├── calendar.png
+│       │       ├── camera.png
+│       │       ├── card.png
+│       │       ├── cash.png
+│       │       ├── chatboxes.png
+│       │       ├── chatbox.png
+│       │       ├── chatbox-working.png
+│       │       ├── chatbubble.png
+│       │       ├── chatbubbles.png
+│       │       ├── chatbubble-working.png
+│       │       ├── checkmark-circled.png
+│       │       ├── checkmark.png
+│       │       ├── checkmark-round.png
+│       │       ├── chevron-down.png
+│       │       ├── chevron-left.png
+│       │       ├── chevron-right.png
+│       │       ├── chevron-up.png
+│       │       ├── clipboard.png
+│       │       ├── clock.png
+│       │       ├── close-circled.png
+│       │       ├── closed-captioning.png
+│       │       ├── close.png
+│       │       ├── close-round.png
+│       │       ├── cloud.png
+│       │       ├── code-download.png
+│       │       ├── code.png
+│       │       ├── code-working.png
+│       │       ├── coffee.png
+│       │       ├── compass.png
+│       │       ├── compose.png
+│       │       ├── connection-bars.png
+│       │       ├── contrast.png
+│       │       ├── cube.png
+│       │       ├── disc.png
+│       │       ├── document.png
+│       │       ├── document-text.png
+│       │       ├── drag.png
+│       │       ├── earth.png
+│       │       ├── edit.png
+│       │       ├── egg.png
+│       │       ├── eject.png
+│       │       ├── email.png
+│       │       ├── eye-disabled.png
+│       │       ├── eye.png
+│       │       ├── female.png
+│       │       ├── filing.png
+│       │       ├── film-marker.png
+│       │       ├── fireball.png
+│       │       ├── flag.png
+│       │       ├── flame.png
+│       │       ├── flash-off.png
+│       │       ├── flash.png
+│       │       ├── flask.png
+│       │       ├── folder.png
+│       │       ├── fork.png
+│       │       ├── fork-repo.png
+│       │       ├── forward.png
+│       │       ├── funnel.png
+│       │       ├── game-controller-a.png
+│       │       ├── game-controller-b.png
+│       │       ├── gear-a.png
+│       │       ├── gear-b.png
+│       │       ├── grid.png
+│       │       ├── hammer.png
+│       │       ├── happy.png
+│       │       ├── headphone.png
+│       │       ├── heart-broken.png
+│       │       ├── heart.png
+│       │       ├── help-buoy.png
+│       │       ├── help-circled.png
+│       │       ├── help.png
+│       │       ├── home.png
+│       │       ├── icecream.png
+│       │       ├── icon-social-google-plus-outline.png
+│       │       ├── icon-social-google-plus.png
+│       │       ├── image.png
+│       │       ├── images.png
+│       │       ├── information-circled.png
+│       │       ├── information.png
+│       │       ├── ionic.png
+│       │       ├── ios7-alarm-outline.png
+│       │       ├── ios7-alarm.png
+│       │       ├── ios7-albums-outline.png
+│       │       ├── ios7-albums.png
+│       │       ├── ios7-americanfootball-outline.png
+│       │       ├── ios7-americanfootball.png
+│       │       ├── ios7-analytics-outline.png
+│       │       ├── ios7-analytics.png
+│       │       ├── ios7-arrow-back.png
+│       │       ├── ios7-arrow-down.png
+│       │       ├── ios7-arrow-forward.png
+│       │       ├── ios7-arrow-left.png
+│       │       ├── ios7-arrow-right.png
+│       │       ├── ios7-arrow-thin-down.png
+│       │       ├── ios7-arrow-thin-left.png
+│       │       ├── ios7-arrow-thin-right.png
+│       │       ├── ios7-arrow-thin-up.png
+│       │       ├── ios7-arrow-up.png
+│       │       ├── ios7-at-outline.png
+│       │       ├── ios7-at.png
+│       │       ├── ios7-barcode-outline.png
+│       │       ├── ios7-barcode.png
+│       │       ├── ios7-baseball-outline.png
+│       │       ├── ios7-baseball.png
+│       │       ├── ios7-basketball-outline.png
+│       │       ├── ios7-basketball.png
+│       │       ├── ios7-bell-outline.png
+│       │       ├── ios7-bell.png
+│       │       ├── ios7-bolt-outline.png
+│       │       ├── ios7-bolt.png
+│       │       ├── ios7-bookmarks-outline.png
+│       │       ├── ios7-bookmarks.png
+│       │       ├── ios7-box-outline.png
+│       │       ├── ios7-box.png
+│       │       ├── ios7-briefcase-outline.png
+│       │       ├── ios7-briefcase.png
+│       │       ├── ios7-browsers-outline.png
+│       │       ├── ios7-browsers.png
+│       │       ├── ios7-calculator-outline.png
+│       │       ├── ios7-calculator.png
+│       │       ├── ios7-calendar-outline.png
+│       │       ├── ios7-calendar.png
+│       │       ├── ios7-camera-outline.png
+│       │       ├── ios7-camera.png
+│       │       ├── ios7-cart-outline.png
+│       │       ├── ios7-cart.png
+│       │       ├── ios7-chatboxes-outline.png
+│       │       ├── ios7-chatboxes.png
+│       │       ├── ios7-chatbubble-outline.png
+│       │       ├── ios7-chatbubble.png
+│       │       ├── ios7-checkmark-empty.png
+│       │       ├── ios7-checkmark-outline.png
+│       │       ├── ios7-checkmark.png
+│       │       ├── ios7-circle-filled.png
+│       │       ├── ios7-circle-outline.png
+│       │       ├── ios7-clock-outline.png
+│       │       ├── ios7-clock.png
+│       │       ├── ios7-close-empty.png
+│       │       ├── ios7-close-outline.png
+│       │       ├── ios7-close.png
+│       │       ├── ios7-cloud-download-outline.png
+│       │       ├── ios7-cloud-download.png
+│       │       ├── ios7-cloud-outline.png
+│       │       ├── ios7-cloud.png
+│       │       ├── ios7-cloud-upload-outline.png
+│       │       ├── ios7-cloud-upload.png
+│       │       ├── ios7-cloudy-night-outline.png
+│       │       ├── ios7-cloudy-night.png
+│       │       ├── ios7-cloudy-outline.png
+│       │       ├── ios7-cloudy.png
+│       │       ├── ios7-cog-outline.png
+│       │       ├── ios7-cog.png
+│       │       ├── ios7-compose-outline.png
+│       │       ├── ios7-compose.png
+│       │       ├── ios7-contact-outline.png
+│       │       ├── ios7-contact.png
+│       │       ├── ios7-copy-outline.png
+│       │       ├── ios7-copy.png
+│       │       ├── ios7-download-outline.png
+│       │       ├── ios7-download.png
+│       │       ├── ios7-drag.png
+│       │       ├── ios7-email-outline.png
+│       │       ├── ios7-email.png
+│       │       ├── ios7-expand.png
+│       │       ├── ios7-eye-outline.png
+│       │       ├── ios7-eye.png
+│       │       ├── ios7-fastforward-outline.png
+│       │       ├── ios7-fastforward.png
+│       │       ├── ios7-filing-outline.png
+│       │       ├── ios7-filing.png
+│       │       ├── ios7-film-outline.png
+│       │       ├── ios7-film.png
+│       │       ├── ios7-flag-outline.png
+│       │       ├── ios7-flag.png
+│       │       ├── ios7-folder-outline.png
+│       │       ├── ios7-folder.png
+│       │       ├── ios7-football-outline.png
+│       │       ├── ios7-football.png
+│       │       ├── ios7-gear-outline.png
+│       │       ├── ios7-gear.png
+│       │       ├── ios7-glasses-outline.png
+│       │       ├── ios7-glasses.png
+│       │       ├── ios7-heart-outline.png
+│       │       ├── ios7-heart.png
+│       │       ├── ios7-help-empty.png
+│       │       ├── ios7-help-outline.png
+│       │       ├── ios7-help.png
+│       │       ├── ios7-home-outline.png
+│       │       ├── ios7-home.png
+│       │       ├── ios7-infinite-outline.png
+│       │       ├── ios7-infinite.png
+│       │       ├── ios7-information-empty.png
+│       │       ├── ios7-information-outline.png
+│       │       ├── ios7-information.png
+│       │       ├── ios7-ionic-outline.png
+│       │       ├── ios7-keypad-outline.png
+│       │       ├── ios7-keypad.png
+│       │       ├── ios7-lightbulb-outline.png
+│       │       ├── ios7-lightbulb.png
+│       │       ├── ios7-location-outline.png
+│       │       ├── ios7-location.png
+│       │       ├── ios7-locked-outline.png
+│       │       ├── ios7-locked.png
+│       │       ├── ios7-loop.png
+│       │       ├── ios7-loop-strong.png
+│       │       ├── ios7-medkit-outline.png
+│       │       ├── ios7-medkit.png
+│       │       ├── ios7-mic-off.png
+│       │       ├── ios7-mic-outline.png
+│       │       ├── ios7-mic.png
+│       │       ├── ios7-minus-empty.png
+│       │       ├── ios7-minus-outline.png
+│       │       ├── ios7-minus.png
+│       │       ├── ios7-monitor-outline.png
+│       │       ├── ios7-monitor.png
+│       │       ├── ios7-moon-outline.png
+│       │       ├── ios7-moon.png
+│       │       ├── ios7-more-outline.png
+│       │       ├── ios7-more.png
+│       │       ├── ios7-musical-note.png
+│       │       ├── ios7-musical-notes.png
+│       │       ├── ios7-navigate-outline.png
+│       │       ├── ios7-navigate.png
+│       │       ├── ios7-paper-outline.png
+│       │       ├── ios7-paperplane-outline.png
+│       │       ├── ios7-paperplane.png
+│       │       ├── ios7-paper.png
+│       │       ├── ios7-partlysunny-outline.png
+│       │       ├── ios7-partlysunny.png
+│       │       ├── ios7-pause-outline.png
+│       │       ├── ios7-pause.png
+│       │       ├── ios7-paw-outline.png
+│       │       ├── ios7-paw.png
+│       │       ├── ios7-people-outline.png
+│       │       ├── ios7-people.png
+│       │       ├── ios7-personadd-outline.png
+│       │       ├── ios7-personadd.png
+│       │       ├── ios7-person-outline.png
+│       │       ├── ios7-person.png
+│       │       ├── ios7-photos-outline.png
+│       │       ├── ios7-photos.png
+│       │       ├── ios7-pie-outline.png
+│       │       ├── ios7-pie.png
+│       │       ├── ios7-play-outline.png
+│       │       ├── ios7-play.png
+│       │       ├── ios7-plus-empty.png
+│       │       ├── ios7-plus-outline.png
+│       │       ├── ios7-plus.png
+│       │       ├── ios7-pricetag-outline.png
+│       │       ├── ios7-pricetag.png
+│       │       ├── ios7-pricetags-outline.png
+│       │       ├── ios7-pricetags.png
+│       │       ├── ios7-printer-outline.png
+│       │       ├── ios7-printer.png
+│       │       ├── ios7-pulse.png
+│       │       ├── ios7-pulse-strong.png
+│       │       ├── ios7-rainy-outline.png
+│       │       ├── ios7-rainy.png
+│       │       ├── ios7-recording-outline.png
+│       │       ├── ios7-recording.png
+│       │       ├── ios7-redo-outline.png
+│       │       ├── ios7-redo.png
+│       │       ├── ios7-refresh-empty.png
+│       │       ├── ios7-refresh-outline.png
+│       │       ├── ios7-refresh.png
+│       │       ├── ios7-reload.png
+│       │       ├── ios7-reverse-camera-outline.png
+│       │       ├── ios7-reverse-camera.png
+│       │       ├── ios7-rewind-outline.png
+│       │       ├── ios7-rewind.png
+│       │       ├── ios7-search.png
+│       │       ├── ios7-search-strong.png
+│       │       ├── ios7-settings.png
+│       │       ├── ios7-settings-strong.png
+│       │       ├── ios7-shrink.png
+│       │       ├── ios7-skipbackward-outline.png
+│       │       ├── ios7-skipbackward.png
+│       │       ├── ios7-skipforward-outline.png
+│       │       ├── ios7-skipforward.png
+│       │       ├── ios7-snowy.png
+│       │       ├── ios7-speedometer-outline.png
+│       │       ├── ios7-speedometer.png
+│       │       ├── ios7-star-half.png
+│       │       ├── ios7-star-outline.png
+│       │       ├── ios7-star.png
+│       │       ├── ios7-stopwatch-outline.png
+│       │       ├── ios7-stopwatch.png
+│       │       ├── ios7-sunny-outline.png
+│       │       ├── ios7-sunny.png
+│       │       ├── ios7-telephone-outline.png
+│       │       ├── ios7-telephone.png
+│       │       ├── ios7-tennisball-outline.png
+│       │       ├── ios7-tennisball.png
+│       │       ├── ios7-thunderstorm-outline.png
+│       │       ├── ios7-thunderstorm.png
+│       │       ├── ios7-time-outline.png
+│       │       ├── ios7-time.png
+│       │       ├── ios7-timer-outline.png
+│       │       ├── ios7-timer.png
+│       │       ├── ios7-toggle-outline.png
+│       │       ├── ios7-toggle.png
+│       │       ├── ios7-trash-outline.png
+│       │       ├── ios7-trash.png
+│       │       ├── ios7-undo-outline.png
+│       │       ├── ios7-undo.png
+│       │       ├── ios7-unlocked-outline.png
+│       │       ├── ios7-unlocked.png
+│       │       ├── ios7-upload-outline.png
+│       │       ├── ios7-upload.png
+│       │       ├── ios7-videocam-outline.png
+│       │       ├── ios7-videocam.png
+│       │       ├── ios7-volume-high.png
+│       │       ├── ios7-volume-low.png
+│       │       ├── ios7-wineglass-outline.png
+│       │       ├── ios7-wineglass.png
+│       │       ├── ios7-world-outline.png
+│       │       ├── ios7-world.png
+│       │       ├── ipad.png
+│       │       ├── iphone.png
+│       │       ├── ipod.png
+│       │       ├── jet.png
+│       │       ├── key.png
+│       │       ├── knife.png
+│       │       ├── laptop.png
+│       │       ├── leaf.png
+│       │       ├── levels.png
+│       │       ├── lightbulb.png
+│       │       ├── link.png
+│       │       ├── load-a.png
+│       │       ├── load-b.png
+│       │       ├── load-c.png
+│       │       ├── load-d.png
+│       │       ├── location.png
+│       │       ├── locked.png
+│       │       ├── log-in.png
+│       │       ├── log-out.png
+│       │       ├── loop.png
+│       │       ├── magnet.png
+│       │       ├── male.png
+│       │       ├── man.png
+│       │       ├── map.png
+│       │       ├── medkit.png
+│       │       ├── merge.png
+│       │       ├── mic-a.png
+│       │       ├── mic-b.png
+│       │       ├── mic-c.png
+│       │       ├── minus-circled.png
+│       │       ├── minus.png
+│       │       ├── minus-round.png
+│       │       ├── model-s.png
+│       │       ├── monitor.png
+│       │       ├── more.png
+│       │       ├── mouse.png
+│       │       ├── music-note.png
+│       │       ├── navicon.png
+│       │       ├── navicon-round.png
+│       │       ├── navigate.png
+│       │       ├── network.png
+│       │       ├── no-smoking.png
+│       │       ├── nuclear.png
+│       │       ├── outlet.png
+│       │       ├── paper-airplane.png
+│       │       ├── paperclip.png
+│       │       ├── pause.png
+│       │       ├── person-add.png
+│       │       ├── person.png
+│       │       ├── person-stalker.png
+│       │       ├── pie-graph.png
+│       │       ├── pin.png
+│       │       ├── pinpoint.png
+│       │       ├── pizza.png
+│       │       ├── plane.png
+│       │       ├── planet.png
+│       │       ├── play.png
+│       │       ├── playstation.png
+│       │       ├── plus-circled.png
+│       │       ├── plus.png
+│       │       ├── plus-round.png
+│       │       ├── podium.png
+│       │       ├── pound.png
+│       │       ├── power.png
+│       │       ├── pricetag.png
+│       │       ├── pricetags.png
+│       │       ├── printer.png
+│       │       ├── pull-request.png
+│       │       ├── qr-scanner.png
+│       │       ├── quote.png
+│       │       ├── radio-waves.png
+│       │       ├── record.png
+│       │       ├── refresh.png
+│       │       ├── reply-all.png
+│       │       ├── reply.png
+│       │       ├── ribbon-a.png
+│       │       ├── ribbon-b.png
+│       │       ├── sad.png
+│       │       ├── scissors.png
+│       │       ├── search.png
+│       │       ├── settings.png
+│       │       ├── share.png
+│       │       ├── shuffle.png
+│       │       ├── skip-backward.png
+│       │       ├── skip-forward.png
+│       │       ├── social-android-outline.png
+│       │       ├── social-android.png
+│       │       ├── social-apple-outline.png
+│       │       ├── social-apple.png
+│       │       ├── social-bitcoin-outline.png
+│       │       ├── social-bitcoin.png
+│       │       ├── social-buffer-outline.png
+│       │       ├── social-buffer.png
+│       │       ├── social-designernews-outline.png
+│       │       ├── social-designernews.png
+│       │       ├── social-dribbble-outline.png
+│       │       ├── social-dribbble.png
+│       │       ├── social-dropbox-outline.png
+│       │       ├── social-dropbox.png
+│       │       ├── social-facebook-outline.png
+│       │       ├── social-facebook.png
+│       │       ├── social-foursquare-outline.png
+│       │       ├── social-foursquare.png
+│       │       ├── social-freebsd-devil.png
+│       │       ├── social-github-outline.png
+│       │       ├── social-github.png
+│       │       ├── social-google-outline.png
+│       │       ├── social-googleplus-outline.png
+│       │       ├── social-googleplus.png
+│       │       ├── social-google.png
+│       │       ├── social-hackernews-outline.png
+│       │       ├── social-hackernews.png
+│       │       ├── social-instagram-outline.png
+│       │       ├── social-instagram.png
+│       │       ├── social-linkedin-outline.png
+│       │       ├── social-linkedin.png
+│       │       ├── social-pinterest-outline.png
+│       │       ├── social-pinterest.png
+│       │       ├── social-reddit-outline.png
+│       │       ├── social-reddit.png
+│       │       ├── social-rss-outline.png
+│       │       ├── social-rss.png
+│       │       ├── social-skype-outline.png
+│       │       ├── social-skype.png
+│       │       ├── social-tumblr-outline.png
+│       │       ├── social-tumblr.png
+│       │       ├── social-tux.png
+│       │       ├── social-twitter-outline.png
+│       │       ├── social-twitter.png
+│       │       ├── social-usd-outline.png
+│       │       ├── social-usd.png
+│       │       ├── social-vimeo-outline.png
+│       │       ├── social-vimeo.png
+│       │       ├── social-windows-outline.png
+│       │       ├── social-windows.png
+│       │       ├── social-wordpress-outline.png
+│       │       ├── social-wordpress.png
+│       │       ├── social-yahoo-outline.png
+│       │       ├── social-yahoo.png
+│       │       ├── social-youtube-outline.png
+│       │       ├── social-youtube.png
+│       │       ├── speakerphone.png
+│       │       ├── speedometer.png
+│       │       ├── spoon.png
+│       │       ├── star.png
+│       │       ├── stats-bars.png
+│       │       ├── steam.png
+│       │       ├── stop.png
+│       │       ├── thermometer.png
+│       │       ├── thumbsdown.png
+│       │       ├── thumbsup.png
+│       │       ├── toggle-filled.png
+│       │       ├── toggle.png
+│       │       ├── trash-a.png
+│       │       ├── trash-b.png
+│       │       ├── trophy.png
+│       │       ├── umbrella.png
+│       │       ├── university.png
+│       │       ├── unlocked.png
+│       │       ├── upload.png
+│       │       ├── usb.png
+│       │       ├── videocamera.png
+│       │       ├── volume-high.png
+│       │       ├── volume-low.png
+│       │       ├── volume-medium.png
+│       │       ├── volume-mute.png
+│       │       ├── wand.png
+│       │       ├── waterdrop.png
+│       │       ├── wifi.png
+│       │       ├── wineglass.png
+│       │       ├── woman.png
+│       │       ├── wrench.png
+│       │       └── xbox.png
+│       ├── readme.md
+│       ├── scss
+│       │   ├── _ionicons-font.scss
+│       │   ├── _ionicons-icons.scss
+│       │   ├── ionicons.scss
+│       │   └── _ionicons-variables.scss
+│       └── src
+│           ├── alert-circled.svg
+│           ├── alert.svg
+│           ├── android-add-circle.svg
+│           ├── android-add.svg
+│           ├── android-alarm-clock.svg
+│           ├── android-alert.svg
+│           ├── android-apps.svg
+│           ├── android-archive.svg
+│           ├── android-arrow-back.svg
+│           ├── android-arrow-down.svg
+│           ├── android-arrow-dropdown-circle.svg
+│           ├── android-arrow-dropdown.svg
+│           ├── android-arrow-dropleft-circle.svg
+│           ├── android-arrow-dropleft.svg
+│           ├── android-arrow-dropright-circle.svg
+│           ├── android-arrow-dropright.svg
+│           ├── android-arrow-dropup-circle.svg
+│           ├── android-arrow-dropup.svg
+│           ├── android-arrow-forward.svg
+│           ├── android-arrow-up.svg
+│           ├── android-attach.svg
+│           ├── android-bar.svg
+│           ├── android-bicycle.svg
+│           ├── android-boat.svg
+│           ├── android-bookmark.svg
+│           ├── android-bulb.svg
+│           ├── android-bus.svg
+│           ├── android-calendar.svg
+│           ├── android-call.svg
+│           ├── android-camera.svg
+│           ├── android-cancel.svg
+│           ├── android-car.svg
+│           ├── android-cart.svg
+│           ├── android-chat.svg
+│           ├── android-checkbox-blank.svg
+│           ├── android-checkbox-outline-blank.svg
+│           ├── android-checkbox-outline.svg
+│           ├── android-checkbox.svg
+│           ├── android-checkmark-circle.svg
+│           ├── android-clipboard.svg
+│           ├── android-close.svg
+│           ├── android-cloud-circle.svg
+│           ├── android-cloud-done.svg
+│           ├── android-cloud-outline.svg
+│           ├── android-cloud.svg
+│           ├── android-color-palette.svg
+│           ├── android-compass.svg
+│           ├── android-contacts.svg
+│           ├── android-contact.svg
+│           ├── android-contract.svg
+│           ├── android-create.svg
+│           ├── android-delete.svg
+│           ├── android-desktop.svg
+│           ├── android-document.svg
+│           ├── android-done-all.svg
+│           ├── android-done.svg
+│           ├── android-download.svg
+│           ├── android-drafts.svg
+│           ├── android-exit.svg
+│           ├── android-expand.svg
+│           ├── android-favorite-outline.svg
+│           ├── android-favorite.svg
+│           ├── android-film.svg
+│           ├── android-folder-open.svg
+│           ├── android-folder.svg
+│           ├── android-funnel.svg
+│           ├── android-globe.svg
+│           ├── android-hand.svg
+│           ├── android-hangout.svg
+│           ├── android-happy.svg
+│           ├── android-home.svg
+│           ├── android-image.svg
+│           ├── android-laptop.svg
+│           ├── android-list.svg
+│           ├── android-locate.svg
+│           ├── android-lock.svg
+│           ├── android-mail.svg
+│           ├── android-map.svg
+│           ├── android-menu.svg
+│           ├── android-microphone-off.svg
+│           ├── android-microphone.svg
+│           ├── android-more-horizontal.svg
+│           ├── android-more-vertical.svg
+│           ├── android-navigate.svg
+│           ├── android-notifications-none.svg
+│           ├── android-notifications-off.svg
+│           ├── android-notifications.svg
+│           ├── android-open.svg
+│           ├── android-options.svg
+│           ├── android-people.svg
+│           ├── android-person-add.svg
+│           ├── android-person.svg
+│           ├── android-phone-landscape.svg
+│           ├── android-phone-portrait.svg
+│           ├── android-pin.svg
+│           ├── android-plane.svg
+│           ├── android-playstore.svg
+│           ├── android-print.svg
+│           ├── android-radio-button-off.svg
+│           ├── android-radio-button-on.svg
+│           ├── android-refresh.svg
+│           ├── android-remove-circle.svg
+│           ├── android-remove.svg
+│           ├── android-restaurant.svg
+│           ├── android-sad.svg
+│           ├── android-search.svg
+│           ├── android-send.svg
+│           ├── android-settings.svg
+│           ├── android-share-alt.svg
+│           ├── android-share.svg
+│           ├── android-star-half.svg
+│           ├── android-star-outline.svg
+│           ├── android-star.svg
+│           ├── android-stopwatch.svg
+│           ├── android-subway.svg
+│           ├── android-sunny.svg
+│           ├── android-sync.svg
+│           ├── android-textsms.svg
+│           ├── android-time.svg
+│           ├── android-train.svg
+│           ├── android-unlock.svg
+│           ├── android-upload.svg
+│           ├── android-volume-down.svg
+│           ├── android-volume-mute.svg
+│           ├── android-volume-off.svg
+│           ├── android-volume-up.svg
+│           ├── android-walk.svg
+│           ├── android-warning.svg
+│           ├── android-watch.svg
+│           ├── android-wifi.svg
+│           ├── aperture.svg
+│           ├── archive.svg
+│           ├── arrow-down-a.svg
+│           ├── arrow-down-b.svg
+│           ├── arrow-down-c.svg
+│           ├── arrow-expand.svg
+│           ├── arrow-graph-down-left.svg
+│           ├── arrow-graph-down-right.svg
+│           ├── arrow-graph-up-left.svg
+│           ├── arrow-graph-up-right.svg
+│           ├── arrow-left-a.svg
+│           ├── arrow-left-b.svg
+│           ├── arrow-left-c.svg
+│           ├── arrow-move.svg
+│           ├── arrow-resize.svg
+│           ├── arrow-return-left.svg
+│           ├── arrow-return-right.svg
+│           ├── arrow-right-a.svg
+│           ├── arrow-right-b.svg
+│           ├── arrow-right-c.svg
+│           ├── arrow-shrink.svg
+│           ├── arrow-swap.svg
+│           ├── arrow-up-a.svg
+│           ├── arrow-up-b.svg
+│           ├── arrow-up-c.svg
+│           ├── asterisk.svg
+│           ├── at.svg
+│           ├── backspace-outline.svg
+│           ├── backspace.svg
+│           ├── bag.svg
+│           ├── battery-charging.svg
+│           ├── battery-empty.svg
+│           ├── battery-full.svg
+│           ├── battery-half.svg
+│           ├── battery-low.svg
+│           ├── beaker.svg
+│           ├── beer.svg
+│           ├── bluetooth.svg
+│           ├── bonfire.svg
+│           ├── bookmark.svg
+│           ├── bowtie.svg
+│           ├── briefcase.svg
+│           ├── bug.svg
+│           ├── calculator.svg
+│           ├── calendar.svg
+│           ├── camera.svg
+│           ├── card.svg
+│           ├── cash.svg
+│           ├── chatboxes.svg
+│           ├── chatbox.svg
+│           ├── chatbox-working.svg
+│           ├── chatbubbles.svg
+│           ├── chatbubble.svg
+│           ├── chatbubble-working.svg
+│           ├── checkmark-circled.svg
+│           ├── checkmark-round.svg
+│           ├── checkmark.svg
+│           ├── chevron-down.svg
+│           ├── chevron-left.svg
+│           ├── chevron-right.svg
+│           ├── chevron-up.svg
+│           ├── clipboard.svg
+│           ├── clock.svg
+│           ├── close-circled.svg
+│           ├── closed-captioning.svg
+│           ├── close-round.svg
+│           ├── close.svg
+│           ├── cloud.svg
+│           ├── code-download.svg
+│           ├── code.svg
+│           ├── code-working.svg
+│           ├── coffee.svg
+│           ├── compass.svg
+│           ├── compose.svg
+│           ├── connection-bars.svg
+│           ├── contrast.svg
+│           ├── crop.svg
+│           ├── cube.svg
+│           ├── disc.svg
+│           ├── document.svg
+│           ├── document-text.svg
+│           ├── drag.svg
+│           ├── earth.svg
+│           ├── easel.svg
+│           ├── edit.svg
+│           ├── egg.svg
+│           ├── eject.svg
+│           ├── email.svg
+│           ├── email-unread.svg
+│           ├── erlenmeyer-flask-bubbles.svg
+│           ├── erlenmeyer-flask.svg
+│           ├── eye-disabled.svg
+│           ├── eye.svg
+│           ├── female.svg
+│           ├── filing.svg
+│           ├── film-marker.svg
+│           ├── fireball.svg
+│           ├── flag.svg
+│           ├── flame.svg
+│           ├── flash-off.svg
+│           ├── flash.svg
+│           ├── folder.svg
+│           ├── fork-repo.svg
+│           ├── fork.svg
+│           ├── forward.svg
+│           ├── funnel.svg
+│           ├── gear-a.svg
+│           ├── gear-b.svg
+│           ├── grid.svg
+│           ├── hammer.svg
+│           ├── happy-outline.svg
+│           ├── happy.svg
+│           ├── headphone.svg
+│           ├── heart-broken.svg
+│           ├── heart.svg
+│           ├── help-buoy.svg
+│           ├── help-circled.svg
+│           ├── help.svg
+│           ├── home.svg
+│           ├── icecream.svg
+│           ├── images.svg
+│           ├── image.svg
+│           ├── information-circled.svg
+│           ├── information.svg
+│           ├── ionic.svg
+│           ├── ios-alarm-outline.svg
+│           ├── ios-alarm.svg
+│           ├── ios-albums-outline.svg
+│           ├── ios-albums.svg
+│           ├── ios-americanfootball-outline.svg
+│           ├── ios-americanfootball.svg
+│           ├── ios-analytics-outline.svg
+│           ├── ios-analytics.svg
+│           ├── ios-arrow-back.svg
+│           ├── ios-arrow-down.svg
+│           ├── ios-arrow-forward.svg
+│           ├── ios-arrow-left.svg
+│           ├── ios-arrow-right.svg
+│           ├── ios-arrow-thin-down.svg
+│           ├── ios-arrow-thin-left.svg
+│           ├── ios-arrow-thin-right.svg
+│           ├── ios-arrow-thin-up.svg
+│           ├── ios-arrow-up.svg
+│           ├── ios-at-outline.svg
+│           ├── ios-at.svg
+│           ├── ios-barcode-outline.svg
+│           ├── ios-barcode.svg
+│           ├── ios-baseball-outline.svg
+│           ├── ios-baseball.svg
+│           ├── ios-basketball-outline.svg
+│           ├── ios-basketball.svg
+│           ├── ios-bell-outline.svg
+│           ├── ios-bell.svg
+│           ├── ios-body-outline.svg
+│           ├── ios-body.svg
+│           ├── ios-bolt-outline.svg
+│           ├── ios-bolt.svg
+│           ├── ios-bookmarks-outline.svg
+│           ├── ios-bookmarks.svg
+│           ├── ios-book-outline.svg
+│           ├── ios-book.svg
+│           ├── ios-box-outline.svg
+│           ├── ios-box.svg
+│           ├── ios-briefcase-outline.svg
+│           ├── ios-briefcase.svg
+│           ├── ios-browsers-outline.svg
+│           ├── ios-browsers.svg
+│           ├── ios-calculator-outline.svg
+│           ├── ios-calculator.svg
+│           ├── ios-calendar-outline.svg
+│           ├── ios-calendar.svg
+│           ├── ios-camera-outline.svg
+│           ├── ios-camera.svg
+│           ├── ios-cart-outline.svg
+│           ├── ios-cart.svg
+│           ├── ios-chatboxes-outline.svg
+│           ├── ios-chatboxes.svg
+│           ├── ios-chatbubble-outline.svg
+│           ├── ios-chatbubble.svg
+│           ├── ios-checkmark-empty.svg
+│           ├── ios-checkmark-outline.svg
+│           ├── ios-checkmark.svg
+│           ├── ios-circle-filled.svg
+│           ├── ios-circle-outline.svg
+│           ├── ios-clock-outline.svg
+│           ├── ios-clock.svg
+│           ├── ios-close-empty.svg
+│           ├── ios-close-outline.svg
+│           ├── ios-close.svg
+│           ├── ios-cloud-download-outline.svg
+│           ├── ios-cloud-download.svg
+│           ├── ios-cloud-outline.svg
+│           ├── ios-cloud.svg
+│           ├── ios-cloud-upload-outline.svg
+│           ├── ios-cloud-upload.svg
+│           ├── ios-cloudy-night-outline.svg
+│           ├── ios-cloudy-night.svg
+│           ├── ios-cloudy-outline.svg
+│           ├── ios-cloudy.svg
+│           ├── ios-cog-outline.svg
+│           ├── ios-cog.svg
+│           ├── ios-color-filter-outline.svg
+│           ├── ios-color-filter.svg
+│           ├── ios-color-wand-outline.svg
+│           ├── ios-color-wand.svg
+│           ├── ios-compose-outline.svg
+│           ├── ios-compose.svg
+│           ├── ios-contact-outline.svg
+│           ├── ios-contact.svg
+│           ├── ios-copy-outline.svg
+│           ├── ios-copy.svg
+│           ├── ios-crop-strong.svg
+│           ├── ios-crop.svg
+│           ├── ios-download-outline.svg
+│           ├── ios-download.svg
+│           ├── ios-drag.svg
+│           ├── ios-email-outline.svg
+│           ├── ios-email.svg
+│           ├── ios-eye-outline.svg
+│           ├── ios-eye.svg
+│           ├── ios-fastforward-outline.svg
+│           ├── ios-fastforward.svg
+│           ├── ios-filing-outline.svg
+│           ├── ios-filing.svg
+│           ├── ios-film-outline.svg
+│           ├── ios-film.svg
+│           ├── ios-flag-outline.svg
+│           ├── ios-flag.svg
+│           ├── ios-flame-outline.svg
+│           ├── ios-flame.svg
+│           ├── ios-flask-outline.svg
+│           ├── ios-flask.svg
+│           ├── ios-flower-outline.svg
+│           ├── ios-flower.svg
+│           ├── ios-folder-outline.svg
+│           ├── ios-folder.svg
+│           ├── ios-football-outline.svg
+│           ├── ios-football.svg
+│           ├── ios-game-controller-a-outline.svg
+│           ├── ios-game-controller-a.svg
+│           ├── ios-game-controller-b-outline.svg
+│           ├── ios-game-controller-b.svg
+│           ├── ios-gear-outline.svg
+│           ├── ios-gear.svg
+│           ├── ios-glasses-outline.svg
+│           ├── ios-glasses.svg
+│           ├── ios-grid-view-outline.svg
+│           ├── ios-grid-view.svg
+│           ├── ios-heart-outline.svg
+│           ├── ios-heart.svg
+│           ├── ios-help-empty.svg
+│           ├── ios-help-outline.svg
+│           ├── ios-help.svg
+│           ├── ios-home-outline.svg
+│           ├── ios-home.svg
+│           ├── ios-infinite-outline.svg
+│           ├── ios-infinite.svg
+│           ├── ios-information-empty.svg
+│           ├── ios-information-outline.svg
+│           ├── ios-information.svg
+│           ├── ios-ionic-outline.svg
+│           ├── ios-keypad-outline.svg
+│           ├── ios-keypad.svg
+│           ├── ios-lightbulb-outline.svg
+│           ├── ios-lightbulb.svg
+│           ├── ios-list-outline.svg
+│           ├── ios-list.svg
+│           ├── ios-location-outline.svg
+│           ├── ios-location.svg
+│           ├── ios-locked-outline.svg
+│           ├── ios-locked.svg
+│           ├── ios-loop-strong.svg
+│           ├── ios-loop.svg
+│           ├── ios-medical-outline.svg
+│           ├── ios-medical.svg
+│           ├── ios-medkit-outline.svg
+│           ├── ios-medkit.svg
+│           ├── ios-mic-off.svg
+│           ├── ios-mic-outline.svg
+│           ├── ios-mic.svg
+│           ├── ios-minus-empty.svg
+│           ├── ios-minus-outline.svg
+│           ├── ios-minus.svg
+│           ├── ios-monitor-outline.svg
+│           ├── ios-monitor.svg
+│           ├── ios-moon-outline.svg
+│           ├── ios-moon.svg
+│           ├── ios-more-outline.svg
+│           ├── ios-more.svg
+│           ├── ios-musical-notes.svg
+│           ├── ios-musical-note.svg
+│           ├── ios-navigate-outline.svg
+│           ├── ios-navigate.svg
+│           ├── ios-nutrition-outline.svg
+│           ├── ios-nutrition.svg
+│           ├── ios-paper-outline.svg
+│           ├── ios-paperplane-outline.svg
+│           ├── ios-paperplane.svg
+│           ├── ios-paper.svg
+│           ├── ios-partlysunny-outline.svg
+│           ├── ios-partlysunny.svg
+│           ├── ios-pause-outline.svg
+│           ├── ios-pause.svg
+│           ├── ios-paw-outline.svg
+│           ├── ios-paw.svg
+│           ├── ios-people-outline.svg
+│           ├── ios-people.svg
+│           ├── ios-personadd-outline.svg
+│           ├── ios-personadd.svg
+│           ├── ios-person-outline.svg
+│           ├── ios-person.svg
+│           ├── ios-photos-outline.svg
+│           ├── ios-photos.svg
+│           ├── ios-pie-outline.svg
+│           ├── ios-pie.svg
+│           ├── ios-pint-outline.svg
+│           ├── ios-pint.svg
+│           ├── ios-play-outline.svg
+│           ├── ios-play.svg
+│           ├── ios-plus-empty.svg
+│           ├── ios-plus-outline.svg
+│           ├── ios-plus.svg
+│           ├── ios-pricetag-outline.svg
+│           ├── ios-pricetags-outline.svg
+│           ├── ios-pricetags.svg
+│           ├── ios-pricetag.svg
+│           ├── ios-printer-outline.svg
+│           ├── ios-printer.svg
+│           ├── ios-pulse-strong.svg
+│           ├── ios-pulse.svg
+│           ├── ios-rainy-outline.svg
+│           ├── ios-rainy.svg
+│           ├── ios-recording-outline.svg
+│           ├── ios-recording.svg
+│           ├── ios-redo-outline.svg
+│           ├── ios-redo.svg
+│           ├── ios-refresh-empty.svg
+│           ├── ios-refresh-outline.svg
+│           ├── ios-refresh.svg
+│           ├── ios-reload.svg
+│           ├── ios-reverse-camera-outline.svg
+│           ├── ios-reverse-camera.svg
+│           ├── ios-rewind-outline.svg
+│           ├── ios-rewind.svg
+│           ├── ios-rose-outline.svg
+│           ├── ios-rose.svg
+│           ├── ios-search-strong.svg
+│           ├── ios-search.svg
+│           ├── ios-settings-strong.svg
+│           ├── ios-settings.svg
+│           ├── ios-shuffle-strong.svg
+│           ├── ios-shuffle.svg
+│           ├── ios-skipbackward-outline.svg
+│           ├── ios-skipbackward.svg
+│           ├── ios-skipforward-outline.svg
+│           ├── ios-skipforward.svg
+│           ├── ios-snowy.svg
+│           ├── ios-speedometer-outline.svg
+│           ├── ios-speedometer.svg
+│           ├── ios-star-half.svg
+│           ├── ios-star-outline.svg
+│           ├── ios-star.svg
+│           ├── ios-stopwatch-outline.svg
+│           ├── ios-stopwatch.svg
+│           ├── ios-sunny-outline.svg
+│           ├── ios-sunny.svg
+│           ├── ios-telephone-outline.svg
+│           ├── ios-telephone.svg
+│           ├── ios-tennisball-outline.svg
+│           ├── ios-tennisball.svg
+│           ├── ios-thunderstorm-outline.svg
+│           ├── ios-thunderstorm.svg
+│           ├── ios-time-outline.svg
+│           ├── ios-timer-outline.svg
+│           ├── ios-timer.svg
+│           ├── ios-time.svg
+│           ├── ios-toggle-outline.svg
+│           ├── ios-toggle.svg
+│           ├── ios-trash-outline.svg
+│           ├── ios-trash.svg
+│           ├── ios-undo-outline.svg
+│           ├── ios-undo.svg
+│           ├── ios-unlocked-outline.svg
+│           ├── ios-unlocked.svg
+│           ├── ios-upload-outline.svg
+│           ├── ios-upload.svg
+│           ├── ios-videocam-outline.svg
+│           ├── ios-videocam.svg
+│           ├── ios-volume-high.svg
+│           ├── ios-volume-low.svg
+│           ├── ios-wineglass-outline.svg
+│           ├── ios-wineglass.svg
+│           ├── ios-world-outline.svg
+│           ├── ios-world.svg
+│           ├── ipad.svg
+│           ├── iphone.svg
+│           ├── ipod.svg
+│           ├── jet.svg
+│           ├── key.svg
+│           ├── knife.svg
+│           ├── laptop.svg
+│           ├── leaf.svg
+│           ├── levels.svg
+│           ├── lightbulb.svg
+│           ├── link.svg
+│           ├── load-a.svg
+│           ├── load-b.svg
+│           ├── load-c.svg
+│           ├── load-d.svg
+│           ├── location.svg
+│           ├── lock-combination.svg
+│           ├── locked.svg
+│           ├── log-in.svg
+│           ├── log-out.svg
+│           ├── loop.svg
+│           ├── magnet.svg
+│           ├── male.svg
+│           ├── man.svg
+│           ├── map.svg
+│           ├── medkit.svg
+│           ├── merge.svg
+│           ├── mic-a.svg
+│           ├── mic-b.svg
+│           ├── mic-c.svg
+│           ├── minus-circled.svg
+│           ├── minus-round.svg
+│           ├── minus.svg
+│           ├── model-s.svg
+│           ├── monitor.svg
+│           ├── more.svg
+│           ├── mouse.svg
+│           ├── music-note.svg
+│           ├── navicon-round.svg
+│           ├── navicon.svg
+│           ├── navigate.svg
+│           ├── network.svg
+│           ├── no-smoking.svg
+│           ├── nuclear.svg
+│           ├── outlet.svg
+│           ├── paintbrush.svg
+│           ├── paintbucket.svg
+│           ├── paper-airplane.svg
+│           ├── paperclip.svg
+│           ├── pause.svg
+│           ├── person-add.svg
+│           ├── person-stalker.svg
+│           ├── person.svg
+│           ├── pie-graph.svg
+│           ├── pinpoint.svg
+│           ├── pin.svg
+│           ├── pizza.svg
+│           ├── plane.svg
+│           ├── planet.svg
+│           ├── playstation.svg
+│           ├── play.svg
+│           ├── plus-circled.svg
+│           ├── plus-round.svg
+│           ├── plus.svg
+│           ├── podium.svg
+│           ├── pound.svg
+│           ├── power.svg
+│           ├── pricetags.svg
+│           ├── pricetag.svg
+│           ├── printer.svg
+│           ├── pull-request.svg
+│           ├── qr-scanner.svg
+│           ├── quote.svg
+│           ├── radio-waves.svg
+│           ├── record.svg
+│           ├── refresh.svg
+│           ├── reply-all.svg
+│           ├── reply.svg
+│           ├── ribbon-a.svg
+│           ├── ribbon-b.svg
+│           ├── sad-outline.svg
+│           ├── sad.svg
+│           ├── scissors.svg
+│           ├── search.svg
+│           ├── settings.svg
+│           ├── share.svg
+│           ├── shuffle.svg
+│           ├── skip-backward.svg
+│           ├── skip-forward.svg
+│           ├── social-android-outline.svg
+│           ├── social-android.svg
+│           ├── social-angular-outline.svg
+│           ├── social-angular.svg
+│           ├── social-apple-outline.svg
+│           ├── social-apple.svg
+│           ├── social-bitcoin-outline.svg
+│           ├── social-bitcoin.svg
+│           ├── social-buffer-outline.svg
+│           ├── social-buffer.svg
+│           ├── social-chrome-outline.svg
+│           ├── social-chrome.svg
+│           ├── social-codepen-outline.svg
+│           ├── social-codepen.svg
+│           ├── social-css3-outline.svg
+│           ├── social-css3.svg
+│           ├── social-designernews-outline.svg
+│           ├── social-designernews.svg
+│           ├── social-dribbble-outline.svg
+│           ├── social-dribbble.svg
+│           ├── social-dropbox-outline.svg
+│           ├── social-dropbox.svg
+│           ├── social-euro-outline.svg
+│           ├── social-euro.svg
+│           ├── social-facebook-outline.svg
+│           ├── social-facebook.svg
+│           ├── social-foursquare-outline.svg
+│           ├── social-foursquare.svg
+│           ├── social-freebsd-devil.svg
+│           ├── social-github-outline.svg
+│           ├── social-github.svg
+│           ├── social-google-outline.svg
+│           ├── social-googleplus-outline.svg
+│           ├── social-googleplus.svg
+│           ├── social-google.svg
+│           ├── social-hackernews-outline.svg
+│           ├── social-hackernews.svg
+│           ├── social-html5-outline.svg
+│           ├── social-html5.svg
+│           ├── social-instagram-outline.svg
+│           ├── social-instagram.svg
+│           ├── social-javascript-outline.svg
+│           ├── social-javascript.svg
+│           ├── social-linkedin-outline.svg
+│           ├── social-linkedin.svg
+│           ├── social-markdown.svg
+│           ├── social-nodejs.svg
+│           ├── social-octocat.svg
+│           ├── social-pinterest-outline.svg
+│           ├── social-pinterest.svg
+│           ├── social-python.svg
+│           ├── social-reddit-outline.svg
+│           ├── social-reddit.svg
+│           ├── social-rss-outline.svg
+│           ├── social-rss.svg
+│           ├── social-sass.svg
+│           ├── social-skype-outline.svg
+│           ├── social-skype.svg
+│           ├── social-snapchat-outline.svg
+│           ├── social-snapchat.svg
+│           ├── social-tumblr-outline.svg
+│           ├── social-tumblr.svg
+│           ├── social-tux.svg
+│           ├── social-twitch-outline.svg
+│           ├── social-twitch.svg
+│           ├── social-twitter-outline.svg
+│           ├── social-twitter.svg
+│           ├── social-usd-outline.svg
+│           ├── social-usd.svg
+│           ├── social-vimeo-outline.svg
+│           ├── social-vimeo.svg
+│           ├── social-whatsapp-outline.svg
+│           ├── social-whatsapp.svg
+│           ├── social-windows-outline.svg
+│           ├── social-windows.svg
+│           ├── social-wordpress-outline.svg
+│           ├── social-wordpress.svg
+│           ├── social-yahoo-outline.svg
+│           ├── social-yahoo.svg
+│           ├── social-yen-outline.svg
+│           ├── social-yen.svg
+│           ├── social-youtube-outline.svg
+│           ├── social-youtube.svg
+│           ├── soup-can-outline.svg
+│           ├── soup-can.svg
+│           ├── speakerphone.svg
+│           ├── speedometer.svg
+│           ├── spoon.svg
+│           ├── star.svg
+│           ├── stats-bars.svg
+│           ├── steam.svg
+│           ├── stop.svg
+│           ├── thermometer.svg
+│           ├── thumbsdown.svg
+│           ├── thumbsup.svg
+│           ├── toggle-filled.svg
+│           ├── toggle.svg
+│           ├── transgender.svg
+│           ├── trash-a.svg
+│           ├── trash-b.svg
+│           ├── trophy.svg
+│           ├── tshirt-outline.svg
+│           ├── tshirt.svg
+│           ├── umbrella.svg
+│           ├── university.svg
+│           ├── unlocked.svg
+│           ├── upload.svg
+│           ├── usb.svg
+│           ├── videocamera.svg
+│           ├── volume-high.svg
+│           ├── volume-low.svg
+│           ├── volume-medium.svg
+│           ├── volume-mute.svg
+│           ├── wand.svg
+│           ├── waterdrop.svg
+│           ├── wifi.svg
+│           ├── wineglass.svg
+│           ├── woman.svg
+│           ├── wrench.svg
+│           └── xbox.svg
+├── functions.inc.php
+├── img
+│   ├── bg_blue.png
+│   ├── bg_green.png
+│   ├── bg_orange.png
+│   ├── Gartenhelfer.png
+│   └── tex
+│       ├── GrassSeamless.jpg
+│       ├── paper1.jpg
+│       └── wildtextures-old-wood-original-file.jpg
+├── inc
+│   ├── config.inc.php
+│   ├── lang.de.inc.php
+│   ├── msg.inc.php
+│   ├── nav.inc.php
+│   ├── pflanzen.inc.php
+│   ├── prompter.inc.php
+│   ├── spruch.inc.php
+│   ├── syslog.inc.php
+│   ├── tagesdaten.inc.php
+│   ├── termine.inc.php
+│   ├── tonne.inc.php
+│   ├── vars.inc.php
+│   ├── wartung.inc.php
+│   └── writeTagesdaten.inc.php
+├── index.htm
+├── index.php
+├── js
+│   ├── audioplayer.js
+│   ├── audioplayer.min.js
+│   ├── bootstrap-switch.js
+│   ├── flotr-0.2.0-alpha.js
+│   ├── highcharts-3d.js
+│   ├── highcharts.js
+│   ├── highcharts.src.js
+│   ├── jquery-advanced-news-ticker.jquery.json
+│   ├── jquery.color.js
+│   ├── jquery.js
+│   ├── jquery.newsTicker.js
+│   ├── jquery.simpleWeather.js
+│   ├── jquery.tzineClock.js
+│   ├── justgage.1.0.1.js
+│   ├── justgage.1.0.1.min.js
+│   ├── lib
+│   │   ├── base64.js
+│   │   ├── canvas2image.js
+│   │   ├── canvastext.js
+│   │   ├── excanvas.js
+│   │   └── prototype-1.6.0.2.js
+│   ├── logic.js
+│   ├── main.js
+│   ├── old.js
+│   ├── plugins.js
+│   ├── raphael.2.1.0.min.js
+│   └── vendor
+│       ├── bootstrap.js
+│       ├── bootstrap.min.js
+│       ├── jquery-1.11.2.min.js
+│       ├── jquery-1.11.3.js
+│       ├── modernizr-2.8.3-respond-1.4.2.min.js
+│       └── npm.js
+├── jsnCnt.php
+├── readMe.nfo
+├── ReadMe.txt
+├── serialtest.txt
+├── sqlitedb
+│   ├── db (Kopie).sql
+│   └── db.sql
+├── structure.txt
+├── texte
+│   └── text1.html
+├── upload.php
+└── uploads
+    ├── 1712836.jpg
+    ├── 1822357.jpg
+    ├── images
+    ├── movies
+    ├── music
+    └── Readme.nfo
+
+27 directories, 1455 files
