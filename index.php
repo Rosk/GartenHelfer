@@ -87,7 +87,7 @@
         <div id="help" class="col-md-12">
             <div class="alert alert-dismissable">
                 <section class="intro-block">
-                    <p id="helptext">Lorem ipsum dolor sit amet... </p>
+                    <p id="helptext">Lorem ipsum dolor sit amet... This is just a default text</p>
                 </section>
             </div>
         </div>
