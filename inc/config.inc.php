@@ -8,12 +8,12 @@
 
 /** CONFIG VARS */
 
-$vorname    = "Jan-Christopher";
-$nachname   = "Przybilla";
-$strasse    = "Panhütterweg 20";
-$stadt      = "Recklinghausen";
-$email      = "info@rosk.de";
-$nickname   = "ROSK";
+$vorname    = "Horst";
+$nachname   = "Klapperbaum";
+$strasse    = "Musterstrasse 72";
+$stadt      = "Musterhausen";
+$email      = "info@test.de";
+$nickname   = "NICK NAME";
 $pageName = "GartenHelfer 0.26";
 $lichtzonen = 8;
 $grad = 0;
